@@ -3,7 +3,9 @@
 A gif format encoder
 
 Ported from [https://github.com/Chman/Moments](https://github.com/Chman/Moments)
-Haxe port by [KeyMaster-](https://github.com/KeyMaster-) with contributions by [underscorediscovery](https://github.com/underscorediscovery)
+
+Haxe port by [KeyMaster-](https://github.com/KeyMaster-)   
+with contributions by [underscorediscovery](https://github.com/underscorediscovery)
 
 ### Simple usage
 
