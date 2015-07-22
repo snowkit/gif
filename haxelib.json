@@ -6,6 +6,6 @@
 	"description": "A haxe port of the LZW and NeuQuant gif encoding algorithms",
 	"version": "1.0.0-alpha",
 	"releasenote": "initial commit",
-	"contributors": [ "underscorediscovery" ],
+	"contributors": [ "underscorediscovery", "keymaster" ],
 	"dependencies": {}
 }
