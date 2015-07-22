@@ -90,11 +90,6 @@ class GifEncoder {
         Finish() flushes all frames. */
     public function addFrame(frame:GifFrame):Void
     {
-        if (frame == null)
-        {
-            throw "Can't add a null frame to the gif.";
-        }
-
         if (!hasStarted)
         {
             throw "Call Start() before adding frames to the gif.";
@@ -211,7 +206,7 @@ class GifEncoder {
     {
         width = w;
         height = h;
-        //Now that the size is set, we can allocate frame data arrays;
+        //Now that the size is set, we can allocate frame data arrays
         pixels = new UInt8Array(w * h * 3);
         indexedPixels = new UInt8Array(w * h);
         isSizeSet = true;
