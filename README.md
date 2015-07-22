@@ -24,20 +24,20 @@ to remain adaptible to various frameworks, platforms and data transports.
 
 **Create an instance of the GifEncoder class**
 
-```
+```haxe
 var encoder = new GifEncoder(repeat, quality, true);
 ```
 
 **Start encoding**
 
-```
+```haxe
 //see also startOutput
 encoder.startFile(filePath);
 ```
 
 **Add frames to the gif**
 
-```
+```haxe
 
 //RGB information is in UInt8Array format,
 //Which can be created with UInt8Array.fromBytes/fromArray
@@ -58,7 +58,7 @@ encoder.setDelay( microseconds );
 
 **End encoding**
 
-```
+```haxe
 encoder.finish();
 ```
 
