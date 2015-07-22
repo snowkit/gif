@@ -15,6 +15,7 @@ with contributions by [underscorediscovery](https://github.com/underscorediscove
 ##### NOTE
 
 Please note the code is currently being made more flexible and will change slightly.
+See https://github.com/snowkit/gif/issues/1
 
 Specifically - instead of this code handling the file IO,
 it would defer the work to the using code to allow the encoding
