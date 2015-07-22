@@ -1,6 +1,6 @@
 {
-	"name": "gifencoder",
-	"url": "https://github.com/snowkit/gifencoder",
+	"name": "gif",
+	"url": "https://github.com/snowkit/gif",
 	"license": "MIT",
 	"tags": [],
 	"description": "A haxe port of the LZW and NeuQuant gif encoding algorithms",
