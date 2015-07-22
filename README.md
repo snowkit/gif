@@ -1,11 +1,14 @@
 # gif
 
-A gif format encoder
+**A gif format encoder.**   
+This only deals with the encoding (writing) and not reading of gif files (see [format](https://github.com/haxefoundation/format)).   
 
 Ported from [https://github.com/Chman/Moments](https://github.com/Chman/Moments)
 
 Haxe port by [KeyMaster-](https://github.com/KeyMaster-)   
 with contributions by [underscorediscovery](https://github.com/underscorediscovery)
+
+---
 
 ### Simple usage
 
