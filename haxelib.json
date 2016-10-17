@@ -4,7 +4,7 @@
 	"license": "MIT",
 	"tags": [],
 	"description": "A haxe port of the LZW and NeuQuant gif encoding algorithms",
-	"version": "1.0.0-alpha",
+	"version": "1.0.0",
 	"releasenote": "initial commit",
 	"contributors": [ "underscorediscovery", "keymaster" ],
 	"dependencies": {}
