@@ -12,6 +12,12 @@ from [Chman/Moments](https://github.com/Chman/Moments)
 
 ---
 
+### Install
+
+`haxelib git gif https://github.com/snowkit/gif.git`
+
+Then, add `gif` as a library dependency to your project.
+
 ### Simple usage
 
 See `test/Test.hx` for an example!
