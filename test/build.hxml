@@ -1,6 +1,13 @@
 -main Test.hx
 -cpp cpp/
 -cp ../
+
+--next
+
+-main Test.hx
+-js js/Test.js
+-cp ../
+
 # pick a target
 
 # -D mac

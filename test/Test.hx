@@ -25,8 +25,16 @@ class Test {
         encoder.commit(output);
 
         var bytes = output.getBytes();
-        
+
+    #if sys
         sys.io.File.saveBytes("test.gif", bytes);
+    #elseif js
+        var imageElement :js.html.ImageElement = cast js.Browser.document.createElement("img");
+        js.Browser.document.body.appendChild(imageElement);
+        imageElement.src = 'data:image/gif;base64,' + haxe.crypto.Base64.encode(bytes);
+    #else
+        throw 'Unsupported platform!';
+    #end
 
         trace("done.");
 
