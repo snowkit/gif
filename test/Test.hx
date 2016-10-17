@@ -30,8 +30,6 @@ class Test {
         sys.io.File.saveBytes("test.gif", bytes);
     #elseif js
         var imageElement :js.html.ImageElement = cast js.Browser.document.createElement("img");
-        imageElement.width = width;
-        imageElement.height = height;
         js.Browser.document.body.appendChild(imageElement);
         imageElement.src = 'data:image/gif;base64,' + haxe.crypto.Base64.encode(bytes);
     #else
