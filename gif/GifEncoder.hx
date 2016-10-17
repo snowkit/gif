@@ -347,10 +347,6 @@ class GifEncoder {
 
 typedef GifFrame = {
 
-        /** Width of the frame */
-    var width: Int;
-        /** Height of the frame */
-    var height: Int;
         /** Delay of the frame in seconds. This value gets floored
             when encoded due to gif format requirements. If this value is negative,
             the default encoder frame rate will be used. */
@@ -358,6 +354,6 @@ typedef GifFrame = {
         /** Whether or not this frame should be flipped on the Y axis */
     var flippedY: Bool;
         /** Pixels data in unsigned bytes, rgb format */
-    var data:UInt8Array;
+    var data: UInt8Array;
 
 }
