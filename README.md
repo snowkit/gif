@@ -21,3 +21,7 @@ Then, add `gif` as a library dependency to your project.
 ### Simple usage
 
 See `test/Test.hx` for an example!
+
+### Helpers
+
+See https://github.com/snowkit/gifcapture
