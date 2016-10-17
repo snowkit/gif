@@ -1,3 +1,6 @@
+GIF
+---
+
 **A GIF format encoder.**   
 This only deals with the encoding (writing) and not reading of GIF files (see [format](https://github.com/haxefoundation/format)).   
 
