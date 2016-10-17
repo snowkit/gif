@@ -46,8 +46,6 @@ class Test {
         }
 
         var frame: GifFrame = {
-            width: width, 
-            height: height,
             delay: delay,
             flippedY: false,
             data: pixels
