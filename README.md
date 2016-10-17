@@ -1,7 +1,7 @@
 # gif
 
-**A gif format encoder.**   
-This only deals with the encoding (writing) and not reading of gif files (see [format](https://github.com/haxefoundation/format)).   
+**A .gif format encoder.**   
+This only deals with the encoding (writing) and not reading of .gif files (see [format](https://github.com/haxefoundation/format)).   
 
 Haxe port by [KeyMaster-](https://github.com/KeyMaster-)   
 and [underscorediscovery](https://github.com/underscorediscovery) from [https://github.com/Chman/Moments](Chman/Moments)
