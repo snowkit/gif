@@ -317,8 +317,6 @@ class NeuQuant {
                 }
                 else
                 {
-                    i++;
-
                     if (dist < 0)
                         dist = -dist;
 
@@ -344,6 +342,8 @@ class NeuQuant {
                             best = network[i*4 + 3];
                         }
                     }
+
+                    i++;
                 }
             }
 
@@ -357,8 +357,6 @@ class NeuQuant {
                 }
                 else
                 {
-                    j--;
-
                     if (dist < 0)
                         dist = -dist;
 
@@ -384,6 +382,8 @@ class NeuQuant {
                             best = network[j*4 + 3];
                         }
                     }
+
+                    j--;
                 }
             }
         }
@@ -441,18 +441,18 @@ class NeuQuant {
 
             if (j < hi)
             {
-                j++;
                 network[j * 4 + 0] -= Std.int((a * (network[j * 4 + 0] - b)) / alpharadbias);
                 network[j * 4 + 1] -= Std.int((a * (network[j * 4 + 1] - g)) / alpharadbias);
                 network[j * 4 + 2] -= Std.int((a * (network[j * 4 + 2] - r)) / alpharadbias);
+                j++;
             }
 
             if (k > lo)
             {
-                k--;
                 network[k * 4 + 0] -= Std.int((a * (network[k * 4 + 0] - b)) / alpharadbias);
                 network[k * 4 + 1] -= Std.int((a * (network[k * 4 + 1] - g)) / alpharadbias);
                 network[k * 4 + 2] -= Std.int((a * (network[k * 4 + 2] - r)) / alpharadbias);
+                k--;
             }
         }
     }
