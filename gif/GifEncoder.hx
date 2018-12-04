@@ -35,7 +35,7 @@ class GifEncoder {
 
     var width: Int;
     var height: Int;
-    var framerate: Int = 24;                 // used if frame.delay < 0
+    var framerate: Float = 24;                 // used if frame.delay < 0
     var repeat: Int = -1;                    // -1: infinite, 0: none, >0: repeat count
 
     var colorDepth: Int = 8;                 // Number of bit planes
@@ -82,7 +82,7 @@ class GifEncoder {
     public function new(
         _frame_width:Int,
         _frame_height:Int,
-        _framerate:Int,
+        _framerate:Float,
         _repeat:Int = GifRepeat.Infinite,
         _quality:Int = 10
     ) {
